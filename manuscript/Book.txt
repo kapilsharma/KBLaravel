@@ -1,1 +1,2 @@
 01installation.md
+authentication.md
