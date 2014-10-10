@@ -1,1 +1,5 @@
-to do
+# To do
+
+## Setup Homestead
+
+## Setup Laravel project
