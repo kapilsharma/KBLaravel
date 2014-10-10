@@ -181,7 +181,7 @@ Once all 7 supporting files are copied, we are ready to code. Copy whole code fr
 
 Now before we go ahead, we must configure our database. However to keep this page short, We will be presenting model introduction on Sprarate page [laravel-Auth-Model](https://github.com/phpreboot/CodeJugalbandi/tree/master/php/laravel/Auth/model.md)
 
-# Database
+## Database
 
 Working with database is one of the most common task of modern web applications. Any developer friendly framework thus must provide very easy way of communicating with database. Fortunately laravel too provide tools to communicate easily with database. However before that, laravel must know about our database (and before that, we must create database :D)
 
@@ -295,9 +295,11 @@ Route::get('/dbtest2', function(){
 > **Please note:** Although I really put all the routes we are going to discuss in this section, they will be removed in future versions and thus when you checkout the project, you will not get the routed we discuss here. However, I marked the code till this chapter as tag `v0.1.0`. So once you make a clone of the project, you must checkout with tag `v0.1.0` to see the changes. So the commands you will need are:
 > 
 > **Clone project**
+> 
 > *git clone https://github.com/phpreboot/KAPsBudget.git *
 > 
 > **Checkout tag `v0.1.0` **
+> 
 > *git checkout tags/v0.1.0*
 
 Data returned by find or get or any other db function is an object of standard class. So if we wish to display data separately, we can get data as object property as follow.
@@ -417,4 +419,4 @@ By looking example till now, you must have noticed, eloquent uses most obvious m
 
 So as an exercise, try to write code to delete the only record that still have plain password that is the record with id '2'.
 
-If you could not do that, don't worry, code is given in routed file of version 0.1.0 as route '/dbtest9'.
+If you could not do that, don't worry, code is given in routed file of version 0.1.0 as route '/dbtest9'. You can quickly view it at https://github.com/phpreboot/KAPsBudget/blob/v0.1.0/app/routes.php line 90-96.

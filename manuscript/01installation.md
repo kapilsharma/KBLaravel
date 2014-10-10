@@ -2,4 +2,6 @@
 
 ## Setup Homestead
 
+## Setup PHPMyAdmin
+
 ## Setup Laravel project
