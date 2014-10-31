@@ -187,7 +187,14 @@ Working with database is one of the most common task of modern web applications.
 
 **Creating Database**
 
-IF you are following homestead setup and configured PHPMySQL, simply create a database kapsbudget.
+There are two ways of creating database and seeding:
+
+* Use Laravel Migration or
+* Run SQL queries directly on database
+
+We will go through both of these ways but using laravel migration is recommended.
+
+IF you are using homestead setup and configured PHPMySQL, simply create a database kapsbudget and configure it
 
 ## Configure database in Laravel
 
